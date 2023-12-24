@@ -1,0 +1,50 @@
+.reg-main {
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-product-reg {
+  width: 700px;
+}
+
+.register-con {
+  width: 500px;
+}
+
+.inputs {
+  width: 80%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.btn-create-footer {
+  width: 80%;
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+  height: 40px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+
+.text-register {
+    margin: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+
+.google-text {
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid #000;
+}
+
+.login-register {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
