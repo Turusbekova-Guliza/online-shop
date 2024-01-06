@@ -9,6 +9,7 @@ import UserLog from "../../assets/svg/user.svg";
 import { useSelector } from "react-redux";
 
 function Header() {
+
   const wishlist = useSelector((state) => state.wishlistItem.items);
 
   const user = useSelector((state) => state.user.user)
